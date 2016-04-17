@@ -1,16 +1,18 @@
 body {
     background-color: #f9f4f4;
     margin: 0;
-    background-image: url("Images/Kitten.png");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-/*
 * {
     outline: solid yellow 1px
 }
-*/
+
+
+.header {
+    height: 90px;
+    background-color: #c2c4df
+    
+}
 
 .title {
     font-family: "Bebas Neue", sans-serif;
@@ -47,16 +49,29 @@ body {
     width: 100px;
 }
 
-.photography_text {
-    margin-top: 630px;
-    margin-right: 200px;
-    float: right;
-    text-align: right;
-    width: 200px;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 1.5em;
-}
-
 .light_red {
     color: #e74a4a
+}
+
+.name {
+    font-family: "Bebas Neue", sans-serif;
+    vertical-align: -120px;
+    font-size: 2em;
+}
+
+.arrow {
+    float: right;
+    width: 500px;
+    size: 50px;
+}
+
+
+.resize {
+    width: 400px;
+    height: auto
+}
+
+.me {
+    width: 60%;
+    float: right;
 }
