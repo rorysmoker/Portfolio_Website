@@ -3,10 +3,11 @@ body {
     margin: 0;
 }
 
+/*
 * {
     outline: solid yellow 1px
 }
-
+*/
 
 .header {
     height: 90px;
@@ -18,8 +19,8 @@ body {
     font-family: "Bebas Neue", sans-serif;
     font-size: 3em;
     letter-spacing: 1.5px;
-    margin-left: 30px;
     margin-top: 15px;
+    margin-left: 30px;
     width: 255px;
     float: left;
 }
@@ -43,6 +44,10 @@ body {
     width: 5px;
     float: right;
     padding-right: 120px;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 
 .logo img {
@@ -57,6 +62,14 @@ body {
     font-family: "Bebas Neue", sans-serif;
     vertical-align: -120px;
     font-size: 2em;
+    text-align: center;
+}
+
+.arrow_name {
+    font-family: "Againts", sans-serif;
+    font-size: 2em;
+    margin-left: 275px;
+    margin-top: 40px;
 }
 
 .arrow {
@@ -67,11 +80,44 @@ body {
 
 
 .resize {
-    width: 400px;
+    width: 600px;
     height: auto
 }
 
 .me {
     width: 60%;
     float: right;
+}
+
+.about {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+.text {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 100px 275px;
+    position: absolute
+}
+
+.email {
+    font-family: "Againts", sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin: 200px 475px;
+    position: absolute
+}
+
+.instagram {
+    text-align: center;
+    margin: 300px 600px;
+    position: absolute
+}
+
+.resize_two {
+    width: 100px;
+    height: auto
 }
